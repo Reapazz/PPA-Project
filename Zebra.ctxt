@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Zebra
+comment0.text=\n\ A\ simple\ model\ of\ a\ zebra.\n\ Zebras\ age,\ move,\ breed,\ and\ die.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ 2016.02.29\ (2)\n
+comment1.params=randomAge\ field\ location
+comment1.target=Zebra(boolean,\ Field,\ Location)
+comment1.text=\n\ Create\ a\ new\ zebra.\ A\ zebra\ may\ be\ created\ with\ age\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\ \n\ @param\ randomAge\ If\ true,\ the\ zebra\ will\ have\ a\ random\ age.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment2.params=newAnimals
+comment2.target=void\ live(java.util.List)
+comment3.params=randomAge
+comment3.target=Zebra(boolean)
+comment4.params=
+comment4.target=void\ incrementAge()
+comment4.text=\n\ Increase\ the\ age.\n\ This\ could\ result\ in\ the\ zebra's\ death.\n
+comment5.params=newZebras
+comment5.target=void\ giveBirth(java.util.List)
+comment5.text=\n\ Check\ whether\ or\ not\ this\ zebra\ is\ to\ give\ birth\ at\ this\ step.\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\n\ @param\ newZebras\ A\ list\ to\ return\ newly\ born\ zebras.\n
+comment6.params=
+comment6.target=int\ breed()
+comment6.text=\n\ Generate\ a\ number\ representing\ the\ number\ of\ births,\n\ if\ it\ can\ breed.\n\ @return\ The\ number\ of\ births\ (may\ be\ zero).\n
+comment7.params=
+comment7.target=boolean\ canBreed()
+comment7.text=\n\ A\ zebra\ can\ breed\ if\ it\ has\ reached\ the\ breeding\ age.\n\ @return\ true\ if\ the\ zebra\ can\ breed,\ false\ otherwise.\n
+comment8.params=
+comment8.target=void\ setPrey()
+comment8.text=\n\ Adds\ animals\ to\ the\ list\ of\ "prey"\ for\ the\ current\ animal.\n
+numComments=9
